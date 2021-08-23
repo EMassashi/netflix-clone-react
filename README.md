@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preview
+
+<img src="https://cdn.discordapp.com/attachments/658089041836769300/879432887429111878/preview-snapshot.png" width="480">
+
 ## Available Scripts
 
 In the project directory, you can run:
