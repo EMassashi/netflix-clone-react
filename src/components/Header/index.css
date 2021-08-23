@@ -1,0 +1,98 @@
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 55px;
+  transition: all ease 0.5s;
+  background: linear-gradient(to bottom, #141414fe, transparent);
+  opacity: 100%;
+}
+
+header.black {
+  background-color: #141414;
+  opacity: 100%;
+}
+
+.header--logo {
+  height: 25px;
+}
+
+.header--logo img {
+  height: 100%;
+}
+
+.header--nav {
+  margin-left: 45px;
+  height: 30%;
+}
+
+.header--nav a {
+  transition: all ease 0.5s;
+}
+
+.header--nav a:hover {
+  opacity: 0.7;
+}
+
+.header--nav a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 22px;
+}
+
+.header--user {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  height: 32px;
+  margin-right: 55px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.infantil {
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.header--user .notification {
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.header--user img {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.arrow-down {
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #FFF;
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+@media (max-width: 760px) {
+  .header--logo {
+    height: 25px;
+  }
+}
